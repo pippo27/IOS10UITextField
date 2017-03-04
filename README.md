@@ -2,4 +2,4 @@
 
 ### Requirements ###
 * Swift 3.0
-* Xcode 8 GM
+* Xcode 8
