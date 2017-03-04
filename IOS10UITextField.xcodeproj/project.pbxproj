@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		1BAABACF1E6AE927001F895E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAABACE1E6AE927001F895E /* AppDelegate.swift */; };
-		1BAABAD11E6AE927001F895E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAABAD01E6AE927001F895E /* ViewController.swift */; };
-		1BAABAD41E6AE927001F895E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BAABAD21E6AE927001F895E /* Main.storyboard */; };
 		1BAABAD61E6AE927001F895E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BAABAD51E6AE927001F895E /* Assets.xcassets */; };
 		1BAABAD91E6AE927001F895E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BAABAD71E6AE927001F895E /* LaunchScreen.storyboard */; };
+		1BAABAE71E6AE95B001F895E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BAABAE21E6AE95B001F895E /* Main.storyboard */; };
+		1BAABAE81E6AE95B001F895E /* BasicUITextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAABAE31E6AE95B001F895E /* BasicUITextFieldViewController.swift */; };
+		1BAABAE91E6AE95B001F895E /* BasicUITextFieldWithDelegateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAABAE41E6AE95B001F895E /* BasicUITextFieldWithDelegateViewController.swift */; };
+		1BAABAEA1E6AE95B001F895E /* BasicUITextFieldWithDelegate2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAABAE51E6AE95B001F895E /* BasicUITextFieldWithDelegate2ViewController.swift */; };
+		1BAABAEB1E6AE95B001F895E /* UITextFieldInsideTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAABAE61E6AE95B001F895E /* UITextFieldInsideTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1BAABACB1E6AE927001F895E /* IOS10UITextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOS10UITextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BAABACE1E6AE927001F895E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1BAABAD01E6AE927001F895E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1BAABAD31E6AE927001F895E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1BAABAD51E6AE927001F895E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1BAABAD81E6AE927001F895E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1BAABADA1E6AE927001F895E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BAABAE21E6AE95B001F895E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		1BAABAE31E6AE95B001F895E /* BasicUITextFieldViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicUITextFieldViewController.swift; sourceTree = "<group>"; };
+		1BAABAE41E6AE95B001F895E /* BasicUITextFieldWithDelegateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicUITextFieldWithDelegateViewController.swift; sourceTree = "<group>"; };
+		1BAABAE51E6AE95B001F895E /* BasicUITextFieldWithDelegate2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicUITextFieldWithDelegate2ViewController.swift; sourceTree = "<group>"; };
+		1BAABAE61E6AE95B001F895E /* UITextFieldInsideTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldInsideTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +61,11 @@
 			isa = PBXGroup;
 			children = (
 				1BAABACE1E6AE927001F895E /* AppDelegate.swift */,
-				1BAABAD01E6AE927001F895E /* ViewController.swift */,
-				1BAABAD21E6AE927001F895E /* Main.storyboard */,
+				1BAABAE21E6AE95B001F895E /* Main.storyboard */,
+				1BAABAE31E6AE95B001F895E /* BasicUITextFieldViewController.swift */,
+				1BAABAE41E6AE95B001F895E /* BasicUITextFieldWithDelegateViewController.swift */,
+				1BAABAE51E6AE95B001F895E /* BasicUITextFieldWithDelegate2ViewController.swift */,
+				1BAABAE61E6AE95B001F895E /* UITextFieldInsideTableViewController.swift */,
 				1BAABAD51E6AE927001F895E /* Assets.xcassets */,
 				1BAABAD71E6AE927001F895E /* LaunchScreen.storyboard */,
 				1BAABADA1E6AE927001F895E /* Info.plist */,
@@ -125,8 +134,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BAABAD91E6AE927001F895E /* LaunchScreen.storyboard in Resources */,
+				1BAABAE71E6AE95B001F895E /* Main.storyboard in Resources */,
 				1BAABAD61E6AE927001F895E /* Assets.xcassets in Resources */,
-				1BAABAD41E6AE927001F895E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,22 +146,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BAABAD11E6AE927001F895E /* ViewController.swift in Sources */,
+				1BAABAEB1E6AE95B001F895E /* UITextFieldInsideTableViewController.swift in Sources */,
 				1BAABACF1E6AE927001F895E /* AppDelegate.swift in Sources */,
+				1BAABAEA1E6AE95B001F895E /* BasicUITextFieldWithDelegate2ViewController.swift in Sources */,
+				1BAABAE81E6AE95B001F895E /* BasicUITextFieldViewController.swift in Sources */,
+				1BAABAE91E6AE95B001F895E /* BasicUITextFieldWithDelegateViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1BAABAD21E6AE927001F895E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1BAABAD31E6AE927001F895E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1BAABAD71E6AE927001F895E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
